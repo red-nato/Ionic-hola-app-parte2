@@ -1,5 +1,7 @@
 # hola-app · Parte 2: componentes y rutas hijas
 
+## Hola profe. Este es la segunda parte de la actividad
+
 Solución del ejercicio de la **Parte 2** de la guía de la clase 1 del ramo
 IIP323W · Tecnologías y Aplicaciones Web y Móviles (UDD).
 
