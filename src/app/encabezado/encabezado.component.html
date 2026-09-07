@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar [color]="color">
+    @if (volverA) {
+      <ion-buttons slot="start">
+        <ion-back-button [defaultHref]="volverA"></ion-back-button>
+      </ion-buttons>
+    }
+    <ion-title>
+      {{ titulo }}
+      @if (subtitulo) {
+        <span class="ion-text-end ion-padding-end">— {{ subtitulo }}</span>
+      }
+    </ion-title>
+    @if (mostrarAcerca) {
+      <ion-buttons slot="end">
+        <ion-button routerLink="/acerca" size="small">
+          Acerca de
+        </ion-button>
+      </ion-buttons>
+    }
+  </ion-toolbar>
+</ion-header>   
